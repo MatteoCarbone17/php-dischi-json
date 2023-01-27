@@ -1,5 +1,5 @@
 <?php
-include_once __DIR__ . '/server.php'
+
 
 ?> 
 
@@ -23,7 +23,15 @@ include_once __DIR__ . '/server.php'
 <body>
     <div id="app">
         <main>
-            
+            <ul>
+                <li v-for=" item in diskList " >
+                    {{ item.title }} 
+                    {{   item.author  }}
+                    {{  item.genre }} 
+                    {{ item.year}}
+                    <img :src="item.poster" alt="" srcset="">
+                </li>
+            </ul>
         </main>
     </div>
     <script src="./script.js"></script>
