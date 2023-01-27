@@ -12,7 +12,7 @@ createApp({
               .then((response) => {
                 console.log(response.data);
                 this.diskList = response.data;
-                 console.log(this.diskList) 
+                 console.log(this.diskList);
             });
         },
     },

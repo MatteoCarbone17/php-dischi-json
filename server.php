@@ -5,7 +5,12 @@ $array = json_decode($getJson,true);
 // if ($array != null) {
 //  }
 //  var_dump($array);
-header('Content-Type: application/json');
-echo json_encode($array);
+
+
+if ($array != null) {
+    header('Content-Type: application/json');
+
+    echo json_encode($array);
+}
 
 ?>
