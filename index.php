@@ -27,6 +27,15 @@
 
 <body>
     <div id="app">
+        <header>
+            <div class="container p-3">
+                <div class="row">
+                    <div class="col">
+                       <img src="./img/Spotify_icon.png" class="icon"  alt="">
+                    </div>
+                </div>
+            </div>
+        </header>
         <main>
             <div class="container">
                 <div class="row">
